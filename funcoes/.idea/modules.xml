@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/repeticao.iml" filepath="$PROJECT_DIR$/repeticao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/funcoes.iml" filepath="$PROJECT_DIR$/funcoes.iml" />
     </modules>
   </component>
 </project>
