@@ -17,6 +17,11 @@ class Casa {
         this.abrirPorta()
         this.abrirJanela()
     }
+
+    fun detalhesCasa1() {
+
+        TODO("Not yet implemented")
+    }
 }
 
 
