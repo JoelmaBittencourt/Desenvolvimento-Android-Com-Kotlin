@@ -1,47 +1,57 @@
-//open class Pessoa{
-open class Pessoa {
+open class Humano {
 
-    fun comer(){
+    fun comer() {
         println("comer")
     }
-    fun caminhar(){
+
+    fun caminhar() {
         println("caminhar")
     }
-    fun trabalhar(){
+
+    fun trabalhar() {
         println("trabalhar")
     }
-    fun namorar(){
+
+    fun namorar() {
         println("namorar")
     }
-    fun casar(){
+
+    fun casar() {
         println("casar")
     }
-    fun chata(){
+
+    fun chata() {
         println("ser chata")
     }
-    fun engracada(){
+
+    fun engracada() {
         println("engraçada")
     }
+
     fun rancorasa() {
         println("rancorosa")
     }
 }
 
 
-
-
-class Diego: Pessoa(){
+class Diego : Humano() {
 
 }
-class Joelma: Pessoa(){
+
+class Jojoh : Humano() {
 
 }
 
 fun main(args: Array<String>) {
 
     val diego = Diego()
+    println("Diego é")
+    diego.chata()
+    diego.comer()
+    diego.rancorasa()
 
-
-
-    val joelma= Joelma()
+    val jojoh = Jojoh()
+    println("Joelma é")
+    jojoh.namorar()
+    jojoh.caminhar()
 }
